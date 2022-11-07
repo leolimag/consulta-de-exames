@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Novo Exame</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="formNovo">
+		<h1 id="criar">Criar novo exame</h1>
+		<form name="fExame" action="insert">
+			<p><input type="text" name="nomePac" placeholder="Nome do paciente"></p>
+			<p><input type="text" name="nomeEx" placeholder="Nome do exame"></p>
+			<p><input type="date" name="data" placeholder="Data"></p> 
+			<p><input type="text" name="resultado" placeholder="Resultado do exame"></p>
+			<p><input type="button" value="Adicionar" onclick="validar()" class="botaoAdd"></p>
+		</form>
+		<p><a href="main" class="link">Voltar</a></p>
+	</div>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
